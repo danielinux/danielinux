@@ -24,7 +24,7 @@ jobs:
           template: classic
 
           # Main summary block
-          base: header, activity, repositories, metadata
+          base: header, activity, metadata
 
           # Nice to have
           config_timezone: Europe/Rome
@@ -37,19 +37,9 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
 
-          # Coding habits
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
-
-          # Recently starred repos
-          plugin_stars: yes
-          plugin_stars_limit: 4
 
           # Optional: featured repos block
           plugin_repositories: yes

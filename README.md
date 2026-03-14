@@ -1,4 +1,4 @@
-<H2 align="center">:wolf: Danielinux :wolf: </H2>
+<H2 align="center">:wolf: @danielinux :wolf: </H2>
 <p align="center">
    <picture>
      <img src="/metrics.full.svg" alt="GitHub Metrics isometric calendar">
